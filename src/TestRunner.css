@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Roboto+Slab');
+
+.test-runner-container {
+  margin: 40px auto;
+  width: 60%;
+}
+
+.test-runner-header {
+  text-align: center;
+}
+
+.test-runner-header h1 {
+  font-family: 'Roboto Slab', serif;
+  margin: 0 0 40px 0;
+}
+
+.test-runner-footer {
+  text-align: center;
+}
+
+.test-runner-footer h3 {
+  font-family: 'Roboto', sans-serif;
+  margin: 40px 0 0 0;
+}
+
+.test-runner-footer h2 {
+  font-family: 'Roboto Slab', serif;
+  margin: 40px 0 0 0;
+}
+
+.result-row,
+.label-row {
+  display: flex;
+}
+
+.result-row.pass {
+  background-color: #98FB98;
+}
+
+.result-row.fail {
+  background-color: #FDAEAE;
+}
+
+.result-item,
+.label-item {
+  padding: 15px;
+  min-width: 0;
+  text-align: center;
+  width: 25%;
+  word-wrap: break-word;
+}
+
+.label-item p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  text-decoration: underline;
+  margin: 0;
+}
+
+.result-item p {
+  color: #6666FF;
+  font-family: 'Roboto Mono', monospace;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .test-runner {
+    width: 80%;
+  }
+}
